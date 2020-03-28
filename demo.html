@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>title</title>
+  <meta name="author" content="name">
+  <meta name="description" content="description here">
+  <meta name="keywords" content="keywords,here">
+  <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <article class="post">
+    <header class="post__header">
+      <img class="post__image" src="logos_logo.png" alt="Logos Logo">
+    </header>
+    <div class="post__meta">
+      <ul>
+        <li>Posted on: <strong>dd/mm/yyy</strong></li>
+        <li>By: <strong>Admin</strong></li>
+      </ul>
+    </div>
+    <div class="post__body">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quae voluptas provident nemo iste
+        molestiae eaque cupiditate architecto nihil assumenda.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eveniet voluptates quisquam dolorem voluptas
+        beatae!</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum laborum adipisci optio quam tempore magni, unde
+        aliquid nemo ut. Omnis exercitationem ad voluptatibus quas iure!</p>
+      <img src="https://via.placeholder.com/150x200" alt="placeholder image">
+      <ul>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, minima.</li>
+      </ul>
+    </div>
+  </article>
+  <script type="text/javascript" src="logos.min.js"></script>
+  <script>
+    Logos.init({
+      target: '.post__meta',
+      imageRef: '.post__image',
+      textContainer: '.post__body',
+      readerMode: true
+    });
+  </script>
+</body>
+
+</html>

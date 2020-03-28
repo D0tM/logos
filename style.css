@@ -1,0 +1,70 @@
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal
+}
+
+html {
+  box-sizing: border-box
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%
+}
+
+p, ul, img{
+  margin-bottom: 24px;
+}
+
+.post {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 48px;
+}
+
+.post__meta ul {
+  list-style-type: none;
+}
+
+.post__meta ul li {
+  display: inline-block;
+}
