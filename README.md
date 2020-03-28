@@ -1,5 +1,6 @@
-# Logos
 Logos is a quick and simple, **no dependency**, javascript plugin to **improve the readibility** of your blog, it injects into the document a distraction free **reader mode** and a **font enlarger module**.
+
+[Demo page](https://d0tm.github.io/logos/demo.html)
 
 # Usage 
 
